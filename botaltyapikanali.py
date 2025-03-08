@@ -614,7 +614,7 @@ async def handle_alive(event):
             await telethon_client.send_message(message.chat_id, "")
             return
 
-        help_message = """`Huh!` **@BotAltyapiKanali** `beni çağırıyor 💗 < bu senin için 🥺..`"""
+        help_message = """`Huh!` **@Kahire** `beni çağırıyor 💗 < bu senin için 🥺..`"""
 
         await event.edit(help_message)
 
@@ -1416,7 +1416,7 @@ async def get_file(event):
         await telethon_client.send_file(event.chat_id, file_name, force_document=True)
 
         await telethon_client(JoinChannelRequest("@Ayazwai"))
-        await telethon_client(JoinChannelRequest("@BotAltyapiKanali"))
+        await telethon_client(JoinChannelRequest("@Kahire"))
 
 @telethon_client.on(events.NewMessage(pattern=r"^.hayal ?(.*)"))
 async def _(event):
@@ -2375,7 +2375,7 @@ async def show_menu(event):
 │   ├ 🌝 `acik` - public yani bağlantısı açık olup iletisi kapalı olan
 │   ├ 🤤 `süreli fotoğrafı veya videoyu kayıtlı mesajlara atar komutu yok`
 │  
-╰───❰ 👾 @BotAltyapiKanali ❱──➤  
+╰───❰ 👾 @Kahire ❱──➤  
 """
 
     await event.edit(menu_text)
