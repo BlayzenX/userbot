@@ -18,7 +18,7 @@ pip install -r requirements.txt
 python botaltyapikanali.py
 
 ```
-# <span style="color: red;">TELEGRAM:@ramowlf</span>
+# <span style="color: red;">TELEGRAM:@Ayazwai</span>
 
 https://t.me/ramowlf
 

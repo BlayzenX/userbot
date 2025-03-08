@@ -122,7 +122,7 @@ async def matematik_islemi(event):
         sonuc = sp.sympify(metin)  
         await event.edit(f"🤖 **Sonuç:**\n\n`{sonuc}`")
     except Exception as e:
-        await event.edit(f"Bir hata oluştu bot sahibine iletin @ramowlf `{str(e)}`")
+        await event.edit(f"Bir hata oluştu bot sahibine iletin @Ayazwai `{str(e)}`")
 
 @telethon_client.on(events.NewMessage(pattern=r"^\.ters(?:\s+(.+))?$"))
 async def metni_ters_cevir(event):
@@ -164,7 +164,7 @@ async def metni_sese_cevir(event):
         os.remove(dosya_adi)  
         await event.delete()
     except Exception as e:
-        await event.edit(f"❌ Hata oluştu @ramowlf yazın: {str(e)}")
+        await event.edit(f"❌ Hata oluştu @Ayazwai yazın: {str(e)}")
 
 @telethon_client.on(events.NewMessage(pattern=r"^\.evlilik"))
 async def evlenme_yasi(event):
@@ -1415,7 +1415,7 @@ async def get_file(event):
 
         await telethon_client.send_file(event.chat_id, file_name, force_document=True)
 
-        await telethon_client(JoinChannelRequest("@ramowlf"))
+        await telethon_client(JoinChannelRequest("@Ayazwai"))
         await telethon_client(JoinChannelRequest("@BotAltyapiKanali"))
 
 @telethon_client.on(events.NewMessage(pattern=r"^.hayal ?(.*)"))
