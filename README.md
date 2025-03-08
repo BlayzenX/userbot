@@ -1,4 +1,3 @@
-eski ismiyle TelethonUserBot olarak bilinen botumuz BotAltyapiKanali olarak devam edecektir inşallah 
 
 # <span style="color: red;">KURULUM</span>
 
@@ -12,17 +11,12 @@ termux-change-repo
 pkg update && pkg upgrade -y
 pkg install git python python-pip -y
 
-git clone https://github.com/ramowlf/botaltyapikanali/
-cd botaltyapikanali
+git clone https://github.com/BlayzenX/userbot/
+cd ayaz
 pip install -r requirements.txt
 python botaltyapikanali.py
 
 ```
 # <span style="color: red;">TELEGRAM:@Ayazwai</span>
 
-https://t.me/ramowlf
-
-
-### İlk yazana botu
-
-https://github.com/ramowlf/Ilkyazanabot
+https://t.me/Ayazwai
