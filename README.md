@@ -12,7 +12,7 @@ pkg update && pkg upgrade -y
 pkg install git python python-pip -y
 
 git clone https://github.com/BlayzenX/userbot/
-cd ayaz
+cd userbot
 pip install -r requirements.txt
 python botaltyapikanali.py
 
